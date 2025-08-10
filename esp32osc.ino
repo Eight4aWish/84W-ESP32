@@ -7,8 +7,8 @@
 #include <ElegantOTA.h>
 #include <cmath>  // For sin() in sine wave generation
 
-const char *ssid = "YOUR_SSID";
-const char *password = "YOUR_WIFI_PASSWORD;
+const char *ssid = "YOUR_WIFI_NETWORK";
+const char *password = "YOUR_WIFI_PASSWORD";
 
 AsyncWebServer server(80);
 
